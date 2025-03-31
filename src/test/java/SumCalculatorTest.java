@@ -11,7 +11,7 @@ class SumCalculatorTest {
     }
 
     @Test
-    void testSumCalc1() {
+    void testThatSumCalc1Correct() {
         //When
         int actual = calc.sum(1);
 
@@ -21,7 +21,7 @@ class SumCalculatorTest {
     }
 
     @Test
-    void testSumCalc3() {
+    void testThatSumCalc3Correct() {
         //When
         int actual = calc.sum(3);
 
